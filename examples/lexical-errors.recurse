@@ -1,0 +1,11 @@
+launch
+[
+
+number age = 20;
+decimal price = 12.5;
+word name = "Ahmed";
+
+show(name);
+
+halt
+]

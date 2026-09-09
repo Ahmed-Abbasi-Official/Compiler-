@@ -1,0 +1,17 @@
+launch
+[
+
+number a = 23;
+
+decimal price = 12.5;
+
+word name = "Ahmed";
+
+show(name);
+
+limit(number i = 0; i < 5; i++)
+[
+    show(i);
+]
+
+halt

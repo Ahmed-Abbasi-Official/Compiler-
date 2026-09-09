@@ -1,0 +1,10 @@
+{
+  "name": "recurse-compiler",
+  "version": "1.0.0",
+  "description": "Compiler for Recurse Programming Language",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
