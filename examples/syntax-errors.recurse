@@ -1,0 +1,20 @@
+launch
+[
+
+number a = 10
+show(a);
+
+decimal b = ;
+
+yes (a > 5
+[
+    show("big");
+]
+
+limit(number i = 0; i < 5; i++)
+[
+    show(i)
+]
+
+halt
+]

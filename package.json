@@ -5,6 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node tests/parser.test.js",
+    "test:lexer": "node tests/lexer.test.js"
   }
 }
