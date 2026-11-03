@@ -15,3 +15,4 @@ limit(number i = 0; i < 5; i++)
 ]
 
 halt
+]

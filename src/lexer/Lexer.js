@@ -687,12 +687,13 @@ export default class Lexer {
         }
 
 
-        // Reserved Keywords (launch, halt, limit, yes, or, show, feed, return, array, def_func) -> RK
+        // Reserved Keywords (launch, halt, limit, yes, or, show, feed, return, array, def_func)
+        // Token = the keyword in CAPITAL letters (halt -> HALT, def_func -> DEF_FUNC)
         if (KEYWORDS.has(value)) {
 
             this.addToken(
                 value,
-                "RK"
+                value.toUpperCase()
             );
 
             return;

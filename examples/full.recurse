@@ -1,0 +1,51 @@
+-> Functions come before launch
+
+def_func number add(number a, number b)
+[
+    return a + b;
+]
+
+def_func show_line()
+[
+    show("----------");
+    return;
+]
+
+launch
+[
+
+-> Variables
+number total = 0;
+decimal price = 12.5;
+word name;
+array number marks[3] = [70, 85, 90];
+
+feed(name);
+show("Hello", name);
+
+-> Loop over the array
+limit(number i = 0; i < 3; i++)
+[
+    total = total + marks[i];
+]
+
+-> If, else if, else
+yes (total >= 240 && name != "")
+[
+    show("Grade A");
+]
+or yes (total >= 200)
+[
+    show("Grade B");
+]
+or
+[
+    show("Grade C");
+]
+
+total = add(total, -5) * 2;
+marks[0] = (total % 7) / 2;
+show_line();
+
+halt
+]
